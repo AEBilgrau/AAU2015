@@ -45,13 +45,14 @@ The `chars` argument indicate that the point type should be be periods ("`.`").
 
 3.  find out how many trees are recorded;
 
-The `print.ppp` displays the number of recorded trees:
+Both `npoints` and `print.ppp` displays the number of recorded trees:
 
 ```{r}
+npoints(X)
 print(X)
 ```
 
-I.e. there are 14 trees in the dataset.
+I.e. there are 108 trees in the dataset.
 
 4.  find the dimensions of the study region;
 
@@ -64,7 +65,7 @@ window(X)
 5.  obtain an estimate of the average intensity of trees (number of
     trees per unit area).
 
-The average intensity can be computed via `intensity.ppp` v
+The average intensity can be computed via `intensity.ppp`
 
 ```{r}
 intensity(X)
